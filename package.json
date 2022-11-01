@@ -1,0 +1,26 @@
+{
+  "name": "node-dice",
+  "version": "2.0.0",
+  "description": "This assignment will help you learn to create an installable Node.js module package. You'll also provide a command line interface with it.",
+  "main": "lib/roll",
+  "bin": {
+    "roll.js": "bin/cli"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node bin/cli.js --sides=10 --dice=2 --rolls=3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-iyf07.git"
+  },
+  "author": "iyf07",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  },
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-iyf07/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-iyf07#readme"
+}
